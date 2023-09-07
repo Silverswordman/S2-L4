@@ -96,7 +96,10 @@ console.log(epify("CIAONE"));
  di 3 o di 7. (Suggerimento: usa l'operatore modulo)
 */
 function check3and7(n1>0) {
-if 
+    result=
+if () {
+    
+}
 
 
 }
