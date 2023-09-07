@@ -97,7 +97,7 @@ console.log(epify("CIAONE"));
 */
 function check3and7(n1) {
   let result = true;
-  if (n1 % 3 === 0 && n1 % 7 === 0) {
+  if (n1 % 3 === 0 || n1 % 7 === 0) {
     result = true;
   } else {
     result = false;
@@ -105,7 +105,8 @@ function check3and7(n1) {
   return result;
 }
 console.log(check3and7(21));
-console.log(check3and7(22));
+console.log(check3and7(33));
+console.log(check3and7(44));
 
 /* ESERCIZIO 7
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")
